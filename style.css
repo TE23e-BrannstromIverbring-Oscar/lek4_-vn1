@@ -1,0 +1,51 @@
+#rubrik{
+        font-size: 5em;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: #20e648;
+        border: 5px solid black;
+        border-radius: 5px;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-top: 20px;
+}
+.redbox{
+    border: 5px #32b06f solid;
+    border-radius: 5px;
+    background-color: rgb(213, 109, 11);
+    margin: 2%;
+
+    display: flex;
+    flex-direction: row;
+}
+.black-text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.green-text{
+    font-family: 'Courier New', Courier, monospace;
+    color:green;
+    font-weight: bold;
+}
+.black-box{
+    background-color:black;
+    border: 3px solid #32b06f;
+    padding: 2%;
+    margin-right: 32%;
+}
+.green-box{
+    background-color:#32b06f;
+    border: 3px solid black;
+    padding: 1%;
+    margin-right: 2%;
+    margin-left: 32%;
+    padding-right: 15%;
+}
+.bakgrund{
+    height: 400px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border:2px solid black;
+    background-image: url("./img/showcase.jpg");
+}
